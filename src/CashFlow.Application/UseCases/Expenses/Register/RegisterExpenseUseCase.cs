@@ -1,5 +1,6 @@
 ﻿using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
+using CashFlow.Infrastructure.Exceptions;
 
 namespace CashFlow.Application.UseCases.Expenses.Register
 {
@@ -7,10 +8,25 @@ namespace CashFlow.Application.UseCases.Expenses.Register
     {
         public  ResponseRegisterExpenseJson Execute(RequestRegisterExpenseJson request)
         {
-            // to do validation
+            Validate(request);
 
 
             return new ResponseRegisterExpenseJson();
+        }
+
+        private void Validate(RequestRegisterExpenseJson request)
+        {
+
+            var validator = new RegisterExpenseValidator();
+
+            var result = validator.Validate(request);
+
+            if( result.IsValid == false)
+            {
+                var errorMessages = result.Errors.Select(f => f.ErrorMessage).ToList();
+
+                throw new ErrorOnValidationException(errorMessages);
+            }
         }
     }
 }
