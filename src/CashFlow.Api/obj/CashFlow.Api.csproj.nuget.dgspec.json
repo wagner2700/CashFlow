@@ -126,6 +126,9 @@
               },
               "C:\\Users\\wagne\\Desktop\\WorkSpace\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
                 "projectPath": "C:\\Users\\wagne\\Desktop\\WorkSpace\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
+              },
+              "C:\\Users\\wagne\\Desktop\\WorkSpace\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\wagne\\Desktop\\WorkSpace\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj"
               }
             }
           }
@@ -410,6 +413,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
