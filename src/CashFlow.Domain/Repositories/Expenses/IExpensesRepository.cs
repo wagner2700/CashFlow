@@ -5,6 +5,9 @@ namespace CashFlow.Domain.Repositories.Expenses
     public interface IExpensesRepository
     {
         // Função para adicionar despesa
-        void Add(Expense expenses);
+        Task Add(Expense expenses);
+        Task<List<Expense>> GetAll();
+
+        Task<Expense?> GetById(long id);
     }
 }

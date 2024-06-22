@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vtCmwBUlPZZdeajcpdkNHfNAbkOd6/KgIe6Ij7Jomyu9FKR9TeHZrT8k6U2waGzuVQbtbzWVXaggChcCZMMbrg==",
+  "dgSpecHash": "MTn6F1Ur6HU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\wagne\\Desktop\\WorkSpace\\CashFlow\\tests\\Validator.Tests\\Validator.Tests.csproj",
+  "projectFilePath": "C:\\Users\\wagne\\OneDrive\\Área de Trabalho\\CashFlow\\tests\\Validator.Tests\\Validator.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\wagne\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\bogus\\35.5.1\\bogus.35.5.1.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",

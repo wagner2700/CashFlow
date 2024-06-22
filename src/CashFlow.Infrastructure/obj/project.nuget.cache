@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GdehWbERx6dgrZQqY042WSc36nW/OigjZP5Siv/dgHasvdjwrjCtVzfX+4egsawVBF83iG+URq2ePIdyYyuzig==",
+  "dgSpecHash": "jzcceQOdvqQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\wagne\\Desktop\\WorkSpace\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\wagne\\OneDrive\\Área de Trabalho\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wagne\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",

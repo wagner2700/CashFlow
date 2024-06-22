@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V/wbVJbWfbGtlu9ll4eMAfQ2USNN7GbKMTGBjvbPe3xN0ejlXhAINIp4OqvLyhr7ScEybZ34ik55uMo0qaGlxg==",
+  "dgSpecHash": "E0ljbwUH5RM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\wagne\\Desktop\\WorkSpace\\CashFlow\\tests\\CommonTestUtilities\\CommonTestUtilities.csproj",
+  "projectFilePath": "C:\\Users\\wagne\\OneDrive\\Área de Trabalho\\CashFlow\\tests\\CommonTestUtilities\\CommonTestUtilities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wagne\\.nuget\\packages\\bogus\\35.5.1\\bogus.35.5.1.nupkg.sha512"
   ],

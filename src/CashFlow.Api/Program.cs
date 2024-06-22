@@ -1,5 +1,6 @@
 using CashFlow.Api.Filters;
 using CashFlow.Api.Middleware;
+using CashFlow.Application;
 using CashFlow.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,11 +14,12 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
 
+
+
 // configurar injeção de dependencia - Classe e interface
 // função recebe implicitamente parametro Service
-builder.Services.AddInfraestructure();
-
-
+builder.Services.AddInfraestructure( builder.Configuration);
+builder.Services.AddApplication();
 
 
 var app = builder.Build();

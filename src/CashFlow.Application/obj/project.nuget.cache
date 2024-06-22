@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CjcQTCJIppIMpLjnQEM9O5bP+awqmA5x9Jg687XtPNqh9cuwj0iM21h22+s64YRI5/VsbjwsRkGZOVkNVd4R1Q==",
+  "dgSpecHash": "fVG8adBhi2I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\wagne\\Desktop\\WorkSpace\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
+  "projectFilePath": "C:\\Users\\wagne\\OneDrive\\Área de Trabalho\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\wagne\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
