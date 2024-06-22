@@ -51,5 +51,16 @@ namespace CashFlow.Api.Controllers
 
             return Ok(result);
         }
+
+        [HttpDelete]
+        [Route("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> Delete([FromRoute] long id)
+        {
+
+
+            return NoContent();
+        }
     }
 }
