@@ -170,3 +170,10 @@ C:\Users\wagne\OneDrive\Área de Trabalho\CashFlow\src\CashFlow.Api\obj\Debug\ne
 C:\Users\wagne\OneDrive\Área de Trabalho\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.pdb
 C:\Users\wagne\OneDrive\Área de Trabalho\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.genruntimeconfig.cache
 C:\Users\wagne\OneDrive\Área de Trabalho\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\ref\CashFlow.Api.dll
+C:\Users\wagne\OneDrive\Área de Trabalho\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\wagne\OneDrive\Área de Trabalho\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\wagne\OneDrive\Área de Trabalho\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\wagne\OneDrive\Área de Trabalho\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\wagne\OneDrive\Área de Trabalho\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\wagne\OneDrive\Área de Trabalho\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\wagne\OneDrive\Área de Trabalho\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

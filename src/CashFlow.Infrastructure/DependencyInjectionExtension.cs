@@ -1,8 +1,12 @@
 ﻿using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Expenses;
+using CashFlow.Domain.Repositories.User;
+using CashFlow.Domain.Security.Cryptography;
+using CashFlow.Domain.Security.Tokens;
 using CashFlow.Infrastructure.DataAccess;
 using CashFlow.Infrastructure.DataAccess.Repositories;
 using CashFlow.Infrastructure.DataAccess.Repositories.Expenses;
+using CashFlow.Infrastructure.Security.Tokens;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,6 +23,7 @@ namespace CashFlow.Infrastructure
         {
             AddRepositories(services );
             AddDbContext(services , configuration);
+            services.AddScoped<IPasswordEncripter, Security.Criptography.BCrypt>();
         }
 
         // Adicionar a injeção de dependencia dos repositorios
@@ -28,6 +33,18 @@ namespace CashFlow.Infrastructure
             services.AddScoped<IExpensesWriteOnlyRepository, ExpensesRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IExpensesUpdateOnlyRepository, ExpensesRepository>();
+            services.AddScoped<IUserReadOnlyRepository, UserRepository>();
+            services.AddScoped<IUserWriteOnlyRepository, UserRepository>();
+            services.AddScoped<IAcessTokenGenerator, JwtTokenGenerator>();
+        }
+
+        private static void AddToken(IServiceCollection services, IConfiguration configuration)
+        {
+            // Entre <> o tipo de dado que quer buscar
+            var expirationTimeMinutes = configuration.GetValue<uint>("Settings:Jwt:ExpiresMinutes");
+            var signinKey = configuration.GetValue<string>("Settings:Jwt:SigningKey");
+
+            services.AddScoped<IAcessTokenGenerator>(config => new JwtTokenGenerator(expirationTimeMinutes , signinKey!));
         }
 
         // Adicionar injeção de dependencia do DbContet
