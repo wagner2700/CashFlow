@@ -120,11 +120,20 @@
   <data name="AMOUNT_MUST_BE_GRATHER_TAHN_ZERO" xml:space="preserve">
     <value>The Amoun must be grater than zero.</value>
   </data>
+  <data name="EMAIL_EMPTY" xml:space="preserve">
+    <value>Email não pode ser vazio</value>
+  </data>
   <data name="EXPENSES_CANNOT_FOR_THE_FUTURE" xml:space="preserve">
     <value>Expense date is more greater than today</value>
   </data>
   <data name="EXPENSE_NOT_FOUND" xml:space="preserve">
     <value>Expense not found</value>
+  </data>
+  <data name="INVALID_EMAIL" xml:space="preserve">
+    <value>Email inválido</value>
+  </data>
+  <data name="NAME_EMPTY" xml:space="preserve">
+    <value>Nome não pode ser vazio</value>
   </data>
   <data name="PAYMENT_TYPE_INVALID" xml:space="preserve">
     <value>Payments type is not valid</value>

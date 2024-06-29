@@ -1,4 +1,5 @@
 ﻿using CashFlow.Domain.Repositories;
+using CashFlow.Domain.Repositories.Expenses;
 using CashFlow.Infrastructure.DataAccess;
 using CashFlow.Infrastructure.DataAccess.Repositories;
 using CashFlow.Infrastructure.DataAccess.Repositories.Expenses;
@@ -26,6 +27,7 @@ namespace CashFlow.Infrastructure
             services.AddScoped<IExpensesReadOnlyRepository, ExpensesRepository>();
             services.AddScoped<IExpensesWriteOnlyRepository, ExpensesRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IExpensesUpdateOnlyRepository, ExpensesRepository>();
         }
 
         // Adicionar injeção de dependencia do DbContet
